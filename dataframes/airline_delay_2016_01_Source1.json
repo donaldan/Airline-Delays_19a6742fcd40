@@ -1,0 +1,32 @@
+{
+    "name": "airline_delay_2016_01_Source1",
+    "displayName": "Source",
+    "type": "SOURCE",
+    "dependencies": [],
+    "belongsTo": {
+        "type": "dataframe",
+        "id": "airline_delay_2016_01"
+    },
+    "props": {},
+    "transform": {
+        "type": "local_csv",
+        "props": {
+            "data": "C:\\exploratory\\airline_delay_2016_01.csv",
+            "timestamp": "2016-10-12T00:53:31.491Z",
+            "heading": "TRUE",
+            "sep": ",",
+            "customSep": "",
+            "decimal": ".",
+            "group": "",
+            "quote": "\"",
+            "skipNrows": "0",
+            "comment": "",
+            "nastring": "NA",
+            "numOfPreviewRows": "50",
+            "encoding": "ASCII",
+            "trimWs": "FALSE"
+        },
+        "script": "read_delim(\"C:\\\\exploratory\\\\airline_delay_2016_01.csv\" , \",\", quote = \"\\\"\", skip = 0 , col_names = TRUE , na = c(\"\",\"NA\") , locale=locale(encoding = \"ASCII\", decimal_mark = \".\"), trim_ws = FALSE , progress = FALSE)"
+    },
+    "timestamp": "2016-10-12T00:53:26.361Z"
+}
