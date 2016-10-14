@@ -1,12 +1,15 @@
 {
     "name": "Airline Delays",
     "description": "",
-    "timestamp": "2016-10-12T02:47:59.650Z",
+    "timestamp": "2016-10-14T05:30:58.869Z",
     "createdBy": "waverley.inc@gmail.com",
     "creatorName": "Andrew Donaldson",
     "readme": {
         "displayName": "Introduction",
         "timestamp": "2016-10-12T00:51:11.647Z",
         "updatedBy": ""
-    }
+    },
+    "updatedBy": null,
+    "scripts": [],
+    "packages": []
 }
